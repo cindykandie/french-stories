@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "title": "A Casual Conversation",
+      "content": [
+        {
+          "language": "fr",
+          "text": "Person A: Bonjour ! Comment ça va ?"
+        },
+        {
+          "language": "en",
+          "text": "Person A: Hello! How are you?"
+        },
+        {
+          "language": "fr",
+          "text": "Person B: Salut ! Je vais bien, merci. Et toi ?"
+        },
+        {
+          "language": "en",
+          "text": "Person B: Hi! I'm good, thank you. And you?"
+        },
+        {
+          "language": "fr",
+          "text": "Person A: Ça va bien aussi, merci ! Qu'as-tu fait ce week-end ?"
+        },
+        {
+          "language": "en",
+          "text": "Person A: I'm doing well too, thank you! What did you do this weekend?"
+        },
+        {
+          "language": "fr",
+          "text": "Person B: Rien de spécial, j'ai passé du temps avec des amis."
+        },
+        {
+          "language": "en",
+          "text": "Person B: Nothing special, I spent time with friends."
+        }
+      ]
+    }, 
+{
+  "id": 2,
+  "title": "A Joke at the Party",
+  "content": [
+    {
+      "language": "fr",
+      "text": "Person A: Pourquoi le poisson déteste-t-il l'ordinateur ?"
+    },
+    {
+      "language": "en",
+      "text": "Person A: Why does the fish hate the computer?"
+    },
+    {
+      "language": "fr",
+      "text": "Person B: Je ne sais pas, pourquoi ?"
+    },
+    {
+      "language": "en",
+      "text": "Person B: I don't know, why?"
+    },
+    {
+      "language": "fr",
+      "text": "Person A: Parce qu'il a peur du net !"
+    },
+    {
+      "language": "en",
+      "text": "Person A: Because it's afraid of the net!"
+    }
+  ]
+},
+{
+  "id": 3,
+  "title": "A Heartfelt Goodbye",
+  "content": [
+    {
+      "language": "fr",
+      "text": "Person A: Je pars demain matin, je ne veux pas partir."
+    },
+    {
+      "language": "en",
+      "text": "Person A: I'm leaving tomorrow morning, I don't want to go."
+    },
+    {
+      "language": "fr",
+      "text": "Person B: Tu vas me manquer. C'était une période incroyable."
+    },
+    {
+      "language": "en",
+      "text": "Person B: You'll be missed. It's been an amazing time."
+    },
+    {
+      "language": "fr",
+      "text": "Person A: C'est dur de dire au revoir. Je ne t'oublierai jamais."
+    },
+    {
+      "language": "en",
+      "text": "Person A: It's hard to say goodbye. I'll never forget you."
+    }
+  ]
+},
+{
+  "id": 4,
+  "title": "Planning a Weekend Getaway",
+  "content": [
+    {
+      "language": "fr",
+      "text": "Person A: Salut ! Ça te dirait de partir en week-end à la montagne ?"
+    },
+    {
+      "language": "en",
+      "text": "Person A: Hi! How about going for a weekend getaway to the mountains?"
+    },
+    {
+      "language": "fr",
+      "text": "Person B: C'est une excellente idée ! Quand partons-nous ?"
+    },
+    {
+      "language": "en",
+      "text": "Person B: That's a great idea! When do we leave?"
+    },
+    {
+      "language": "fr",
+      "text": "Person A: Je pensais ce vendredi soir. On peut faire de la randonnée et profiter de la nature."
+    },
+    {
+      "language": "en",
+      "text": "Person A: I was thinking this Friday evening. We can go hiking and enjoy nature."
+    }
+  ]
+}
+
+  ]
+  
