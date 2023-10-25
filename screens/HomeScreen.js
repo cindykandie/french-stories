@@ -1,28 +1,52 @@
 // HomeScreen.js
 import React from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity, Image } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+import { ImageBackground } from 'react-native';
 
 const HomeScreen = ({ navigation }) => {
   return (
-    <View className="flex-1 items-center justify-center">
-      <TouchableOpacity className="bg-blue-500 rounded-lg p-4 m-2" onPress={() => navigation.navigate('ConversationsList')}>
-        <Text className="text-white">Go to Conversations List</Text>
+    <View className="flex-1">
+      {/* Background Image */}
+      <Image
+        source={require('../assets/eiffel2.jpg')}
+        style={{ flex: 3, width: '100%', height: '120%' }}
+      />
+      
+      {/* Settings Icon */}
+      <TouchableOpacity
+        className="absolute top-4 right-4"
+        onPress={() => navigation.navigate('Settings')}
+      >
+        <Ionicons name="settings" size={24} color="white" />
       </TouchableOpacity>
-      <TouchableOpacity className="bg-blue-500 rounded-lg p-4 m-2" onPress={() => navigation.navigate('ConversationDetail')}>
-        <Text className="text-white">Go to Conversation Detail</Text>
-      </TouchableOpacity>
-      <TouchableOpacity className="bg-blue-500 rounded-lg p-4 m-2" onPress={() => navigation.navigate('Settings')}>
-        <Text className="text-white">Go to Settings</Text>
-      </TouchableOpacity>
-      <TouchableOpacity className="bg-blue-500 rounded-lg p-4 m-2" onPress={() => navigation.navigate('About')}>
-        <Text className="text-white">Go to About</Text>
-      </TouchableOpacity>
-      <TouchableOpacity className="bg-blue-500 rounded-lg p-4 m-2" onPress={() => navigation.navigate('Feedback')}>
-        <Text className="text-white">Go to Feedback</Text>
-      </TouchableOpacity>
-      <TouchableOpacity className="bg-blue-500 rounded-lg p-4 m-2" onPress={() => navigation.navigate('Exercise')}>
-        <Text className="text-white">Go to Exercise</Text>
-      </TouchableOpacity>
+
+      {/* Main Content */}
+      <View className="flex-1 items-center justify-center bg-slate-400">
+        <View>
+          <TouchableOpacity
+            className="bg-purple-500 w-30 rounded-lg p-4 m-2"
+            onPress={() => navigation.navigate('Practice')}
+          >
+            <Text className="text-white text-center">Get Started</Text>
+          </TouchableOpacity>
+        </View>
+        <View className='flex flex-row '>
+          <TouchableOpacity
+            className="bg-purple-500 rounded-lg p-4 m-2 w-24"
+            onPress={() => navigation.navigate('About')}
+          >
+            <Text className="text-white text-center">About</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            className="bg-purple-500 rounded-lg p-4 m-2"
+            onPress={() => navigation.navigate('Feedback')}
+          >
+            <Text className="text-white text-center">Give Feedback</Text>
+          </TouchableOpacity>
+        </View>
+
+      </View>
     </View>
   );
 };
