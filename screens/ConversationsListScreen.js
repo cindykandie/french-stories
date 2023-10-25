@@ -1,28 +1,28 @@
-// ConversationsList.js
 import React from 'react';
-import { View, Text, FlatList, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
 
 const convos = require('../utils/convos.json'); // Import conversation data
 
 const ConversationsList = ({ navigation }) => {
-  const renderItem = ({ item }) => (
-    <TouchableOpacity
-      className="bg-blue-500 rounded-lg p-4 m-2" // Apply Tailwind CSS-like classes using className
-      onPress={() => navigation.navigate('ConversationDetail', { conversationId: item.id, title: item.title })}
-    >
-      <Text className="text-white">{item.title}</Text>
-    </TouchableOpacity>
-  );
-
   return (
-    <View className="flex-1 items-center justify-center">
-      <Text className="text-xl font-bold">Conversation List</Text>
-      <FlatList
-        data={convos}
-        keyExtractor={(item) => item.id.toString()}
-        renderItem={renderItem}
-      />
-    </View>
+    <ScrollView className="my-5">
+      <View className="flex-row flex-wrap justify-center gap-5">
+        {convos.map((item) => (
+          <TouchableOpacity
+            key={item.id}
+            className="bg-purple-500 rounded-lg p-4 h-36 w-36 border border-blue-900 shadow-md"
+            onPress={() =>
+              navigation.navigate('ConversationDetail', {
+                conversationId: item.id,
+                title: item.title,
+              })
+            }
+          >
+            <Text className="text-black font-semibold text-lg">{item.title}</Text>
+          </TouchableOpacity>
+        ))}
+      </View>
+    </ScrollView>
   );
 };
 

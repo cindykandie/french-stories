@@ -18,8 +18,98 @@ const ExerciseScreen = () => {
       options: ["How are you?", "What's your name?", "Good morning"],
       correctAnswer: "How are you?",
     },
-    // Add more exercise questions here
+    {
+      question: "Quel est le mot français pour 'house'?",
+      options: ["Maison", "Chien", "Fleur"],
+      correctAnswer: "Maison",
+    },
+    {
+      question: "What does 'merci' mean in English?",
+      options: ["Please", "Thank you", "Excuse me"],
+      correctAnswer: "Thank you",
+    },
+    {
+      question: "Translate 'amis' to English.",
+      options: ["Friends", "Family", "Food"],
+      correctAnswer: "Friends",
+    },
+    {
+      question: "How do you say 'cat' in French?",
+      options: ["Chien", "Chat", "Poisson"],
+      correctAnswer: "Chat",
+    },
+    {
+      question: "Which word means 'water' in French?",
+      options: ["Pluie", "Vent", "Eau"],
+      correctAnswer: "Eau",
+    },
+    {
+      question: "What is 'pencil' in French?",
+      options: ["Livre", "Stylo", "Chaise"],
+      correctAnswer: "Stylo",
+    },
+    {
+      question: "Translate 'été' to English.",
+      options: ["Autumn", "Summer", "Winter"],
+      correctAnswer: "Summer",
+    },
+    {
+      question: "Comment dit-on 'happy' en français?",
+      options: ["Triste", "Joyeux", "Ennuyé"],
+      correctAnswer: "Joyeux",
+    },
+    {
+      question: "What does 'voiture' mean in English?",
+      options: ["Train", "Bicycle", "Car"],
+      correctAnswer: "Car",
+    },
+    {
+      question: "How do you say 'apple' in French?",
+      options: ["Banane", "Pomme", "Poire"],
+      correctAnswer: "Pomme",
+    },
+    {
+      question: "Which word means 'book' in French?",
+      options: ["Fleur", "Maison", "Livre"],
+      correctAnswer: "Livre",
+    },
+    {
+      question: "Translate 'soleil' to English.",
+      options: ["Sun", "Rain", "Moon"],
+      correctAnswer: "Sun",
+    },
+    {
+      question: "Quel est le mot français pour 'friend'?",
+      options: ["Amour", "Famille", "Ami"],
+      correctAnswer: "Ami",
+    },
+    {
+      question: "What is 'chocolate' in French?",
+      options: ["Fromage", "Chocolat", "Pain"],
+      correctAnswer: "Chocolat",
+    },
+    {
+      question: "Translate 'oiseau' to English.",
+      options: ["Fish", "Bird", "Cat"],
+      correctAnswer: "Bird",
+    },
+    {
+      question: "Comment dit-on 'good night' en français?",
+      options: ["Bonjour", "Bonne nuit", "Au revoir"],
+      correctAnswer: "Bonne nuit",
+    },
+    {
+      question: "What does 'chapeau' mean in English?",
+      options: ["Hat", "Shirt", "Shoes"],
+      correctAnswer: "Hat",
+    },
+    {
+      question: "How do you say 'beach' in French?",
+      options: ["Plage", "Montagne", "Rue"],
+      correctAnswer: "Plage",
+    }
   ];
+  
 
   const handleAnswer = (selectedAnswer) => {
     if (selectedAnswer === exerciseData[currentQuestion].correctAnswer) {

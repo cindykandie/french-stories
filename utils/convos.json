@@ -126,7 +126,261 @@
       "text": "Person A: I was thinking this Friday evening. We can go hiking and enjoy nature."
     }
   ]
-}
+},
+  {
+    "id": 5,
+    "title": "At the Café",
+    "content": [
+      {
+        "language": "fr",
+        "text": "Person A: Bonjour ! Un café, s'il vous plaît."
+      },
+      {
+        "language": "en",
+        "text": "Person A: Hello! A coffee, please."
+      },
+      {
+        "language": "fr",
+        "text": "Person B: Bien sûr, noir ou avec du lait ?"
+      },
+      {
+        "language": "en",
+        "text": "Person B: Of course, black or with milk?"
+      },
+      {
+        "language": "fr",
+        "text": "Person A: Avec du lait, s'il vous plaît."
+      },
+      {
+        "language": "en",
+        "text": "Person A: With milk, please."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "A Walk in the Park",
+    "content": [
+      {
+        "language": "fr",
+        "text": "Person A: Quel beau parc, n'est-ce pas ?"
+      },
+      {
+        "language": "en",
+        "text": "Person A: What a beautiful park, isn't it?"
+      },
+      {
+        "language": "fr",
+        "text": "Person B: Oui, c'est un endroit paisible pour se détendre."
+      },
+      {
+        "language": "en",
+        "text": "Person B: Yes, it's a peaceful place to relax."
+      },
+      {
+        "language": "fr",
+        "text": "Person A: Voulez-vous faire une promenade ?"
+      },
+      {
+        "language": "en",
+        "text": "Person A: Would you like to take a walk?"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Ordering a Croissant",
+    "content": [
+      {
+        "language": "fr",
+        "text": "Person A: Bonjour ! Je voudrais un croissant, s'il vous plaît."
+      },
+      {
+        "language": "en",
+        "text": "Person A: Hello! I would like a croissant, please."
+      },
+      {
+        "language": "fr",
+        "text": "Person B: Bien sûr, voici votre croissant chaud."
+      },
+      {
+        "language": "en",
+        "text": "Person B: Of course, here's your warm croissant."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Lost in the City",
+    "content": [
+      {
+        "language": "fr",
+        "text": "Person A: Excusez-moi, je suis perdu. Pouvez-vous m'aider ?"
+      },
+      {
+        "language": "en",
+        "text": "Person A: Excuse me, I'm lost. Can you help me?"
+      },
+      {
+        "language": "fr",
+        "text": "Person B: Bien sûr, où voulez-vous aller ?"
+      },
+      {
+        "language": "en",
+        "text": "Person B: Of course, where do you want to go?"
+      },
+      {
+        "language": "fr",
+        "text": "Person A: Je cherche la gare."
+      },
+      {
+        "language": "en",
+        "text": "Person A: I'm looking for the train station."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "An Art Gallery Visit",
+    "content": [
+      {
+        "language": "fr",
+        "text": "Person A: Regardez cette belle peinture. C'est incroyable."
+      },
+      {
+        "language": "en",
+        "text": "Person A: Look at this beautiful painting. It's amazing."
+      },
+      {
+        "language": "fr",
+        "text": "Person B: Oui, l'art peut être si inspirant."
+      },
+      {
+        "language": "en",
+        "text": "Person B: Yes, art can be so inspiring."
+      },
+      {
+        "language": "fr",
+        "text": "Person A: J'aimerais acheter cette œuvre."
+      },
+      {
+        "language": "en",
+        "text": "Person A: I'd like to purchase this piece."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Ordering a Baguette",
+    "content": [
+      {
+        "language": "fr",
+        "text": "Person A: Bonjour ! Je voudrais une baguette, s'il vous plaît."
+      },
+      {
+        "language": "en",
+        "text": "Person A: Hello! I would like a baguette, please."
+      },
+      {
+        "language": "fr",
+        "text": "Person B: D'accord, voici votre baguette croustillante."
+      },
+      {
+        "language": "en",
+        "text": "Person B: All right, here's your crispy baguette."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Meeting a New Friend",
+    "content": [
+      {
+        "language": "fr",
+        "text": "Person A: Salut ! Je m'appelle Marie. Et toi ?"
+      },
+      {
+        "language": "en",
+        "text": "Person A: Hi! My name is Marie. And you?"
+      },
+      {
+        "language": "fr",
+        "text": "Person B: Je m'appelle Pierre. Enchanté !"
+      },
+      {
+        "language": "en",
+        "text": "Person B: I'm Pierre. Nice to meet you!"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "At the Farmer's Market",
+    "content": [
+      {
+        "language": "fr",
+        "text": "Person A: Regardez ces délicieux fruits. Je vais en prendre quelques-uns."
+      },
+      {
+        "language": "en",
+        "text": "Person A: Look at these delicious fruits. I'll take some."
+      },
+      {
+        "language": "fr",
+        "text": "Person B: D'accord, voici vos fruits frais."
+      },
+      {
+        "language": "en",
+        "text": "Person B: All right, here are your fresh fruits."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "A Visit to the Louvre",
+    "content": [
+      {
+        "language": "fr",
+        "text": "Person A: Le Louvre est impressionnant. Il y a tant d'œuvres d'art ici."
+      },
+      {
+        "language": "en",
+        "text": "Person A: The Louvre is impressive. There are so many artworks here."
+      },
+      {
+        "language": "fr",
+        "text": "Person B: Oui, c'est l'un des plus grands musées du monde."
+      },
+      {
+        "language": "en",
+        "text": "Person B: Yes, it's one of the largest museums in the world."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Ordering Dessert",
+    "content": [
+      {
+        "language": "fr",
+        "text": "Person A: Je vais prendre une tarte aux pommes, s'il vous plaît."
+      },
+      {
+        "language": "en",
+        "text": "Person A: I'll have an apple pie, please."
+      },
+      {
+        "language": "fr",
+        "text": "Person B: Très bien, une tarte aux pommes fraîche pour vous."
+      },
+      {
+        "language": "en",
+        "text": "Person B: Very well, a fresh apple pie for you."
+      }
+    ]
+  }
+
+
 
   ]
   
