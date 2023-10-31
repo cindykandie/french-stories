@@ -10,7 +10,7 @@ const ConversationsList = ({ navigation }) => {
         {convos.map((item) => (
           <TouchableOpacity
             key={item.id}
-            className="bg-purple-500 rounded-lg p-4 h-36 w-36 border border-blue-900 shadow-md"
+            className="bg-purple-500 rounded-lg p-4 h-36 w-36 border border-black-900 shadow-md"
             onPress={() =>
               navigation.navigate('ConversationDetail', {
                 conversationId: item.id,
@@ -18,7 +18,7 @@ const ConversationsList = ({ navigation }) => {
               })
             }
           >
-            <Text className="text-black font-semibold text-lg">{item.title}</Text>
+            <Text className="text-white font-semibold text-lg">{item.title}</Text>
           </TouchableOpacity>
         ))}
       </View>

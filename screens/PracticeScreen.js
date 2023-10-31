@@ -12,8 +12,8 @@ const PracticeScreen = ({ navigation }) => {
       />
       
       {/* Fancy Text */}
-      <Text className="text-4xl text-black text-center pt-1">"Parlons français."</Text>
-      <Text className="text-4xl text-purple-600 text-center pt-1">"Let's Speak French"</Text>
+      <Text className="text-4xl text-black text-center pt-1">Parlons français.</Text>
+      <Text className="text-4xl text-purple-600 text-center pt-1">Let's Speak French</Text>
 
       {/* Buttons/Links */}
       <View className=" items-center justify-end p-16">
