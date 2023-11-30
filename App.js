@@ -14,6 +14,9 @@ import AboutScreen from './screens/AboutScreen';
 import FeedbackScreen from './screens/FeedbackScreen';
 import ExerciseScreen from './screens/ExerciseScreen';
 import PracticeScreen from './screens/PracticeScreen';
+import LevelsScreen from './screens/LevelsScreen';
+import LevelDetailScreen from './screens/LevelDetailScreen';
+import TestDetailScreen from './screens/TestDetailScreen';
 
 const Stack = createStackNavigator();
 
@@ -29,6 +32,9 @@ function App() {
         <Stack.Screen name="About" component={AboutScreen} options={{ title: 'About' }} />
         <Stack.Screen name="Feedback" component={FeedbackScreen} options={{ title: 'Feedback' }} />
         <Stack.Screen name="Exercise" component={ExerciseScreen} options={{ title: 'Exercise' }} />
+        <Stack.Screen name="Levels" component={LevelsScreen} options={{ title: 'French Levels' }} />
+        <Stack.Screen name="LevelDetail" component={LevelDetailScreen} options={{ title: 'Level Detail' }} />
+        <Stack.Screen name="TestDetail" component={TestDetailScreen} options={{ title: 'Test Detail' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -19,7 +19,7 @@ const PracticeScreen = ({ navigation }) => {
       <View className=" items-center justify-end p-16">
         <TouchableOpacity
           className="bg-blue-500 rounded-lg p-4 m-2"
-          onPress={() => navigation.navigate('Exercise')}
+          onPress={() => navigation.navigate('Levels')}
         >
           <Text className="text-white">Exercises</Text>
         </TouchableOpacity>
